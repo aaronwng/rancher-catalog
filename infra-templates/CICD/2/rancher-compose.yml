@@ -24,7 +24,7 @@
       default: /var/jenkins_home
       type: "string"
       label: "Jenkins Home Volume"
-      description: "***:/var/jenkins_home"
+      description: "Used for backup or restore Jenkins data"
     - variable: "HOST_NAME"
       required: true
       type: "string"
