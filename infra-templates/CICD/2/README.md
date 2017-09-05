@@ -1,4 +1,4 @@
-# Rancher Pipeline
+# Rancher CI/CD
 
 Easier to use, Easier to integrate CI/CD with Rancher.
 
