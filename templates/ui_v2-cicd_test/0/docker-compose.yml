@@ -5,4 +5,4 @@ pipelineUI:
   environment:
     - RANCHER=${RANCHER}
   labels:
-    PIPELINEUI: dev
+    PIPELINEUI: test
