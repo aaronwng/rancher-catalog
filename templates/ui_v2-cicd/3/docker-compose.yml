@@ -1,5 +1,5 @@
 pipelineUI:
-  image: reg.cnrancher.com/pipeline/ui:pipeline-ui-dev_6
+  image: reg.cnrancher.com/pipeline/ui:v1.1
   ports:
     - ${PORT}:8000
   environment:
