@@ -1,0 +1,8 @@
+pipelineUI:
+  image: reg.cnrancher.com/pipeline/ui:v1.2
+  ports:
+    - ${PORT}:8000
+  environment:
+    - RANCHER=${RANCHER}
+  labels:
+    PIPELINEUI: dev

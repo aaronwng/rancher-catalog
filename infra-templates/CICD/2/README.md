@@ -84,7 +84,7 @@ On every stage except the first one, you can authorize some users to approve it.
 #### Step types
 
 - ##### SCM
-SCM(Source Code Management) will only available on the first stage. This stype is used to checkout git repository.
+SCM(Source Code Management) will only available on the first stage. This step is used to checkout git repository.
 
 - ##### Task
 Task is the most fundamental type, and yet is the most powerful type. you can use any image you want to excute the CI.
@@ -94,10 +94,10 @@ Task is the most fundamental type, and yet is the most powerful type. you can us
 Build is used to build a image from dockerfile which come from your source code or the file you upload. you can config it in the UI. Also you can use [Environment Variables](#environment-variables) to tag your image
 
 - ##### Upgrade Service
-Upgrade Service is used to upgrade a service in any cattle environment, the default target environment is the environment CICD deployed, you can target other environments by providing `Environment API Key`. You can use [Environment Variables](#environment-variables) to access the image build from `Build` stype.
+Upgrade Service is used to upgrade a service in any cattle environment, the default target environment is the environment CICD deployed, you can target other environments by providing `Environment API Key`. You can use [Environment Variables](#environment-variables) to access the image build from `Build` step.
 
 - ##### Upgrade Stack
-Upgrade Stack is used to upgrade a stack in any cattle environment, the default target environment is the environment CICD deployed, you can target other environments by providing `Environment API Key`. You can use [Environment Variables](#environment-variables) to access the image build from `Build` stype. 
+Upgrade Stack is used to upgrade a stack in any cattle environment, the default target environment is the environment CICD deployed, you can target other environments by providing `Environment API Key`. You can use [Environment Variables](#environment-variables) to access the image build from `Build` step. 
 
 - ##### Upgrade Catalog 
 
